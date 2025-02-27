@@ -1,0 +1,10 @@
+:root {
+    --primario: #9C27B0;
+    --primario0scuro: #89119D;
+    --secundarui: #FFCE00;
+    --secundario0scuro: rgb(233, 287, 2);
+    --blanco: #fff;
+    --negro: #000
+
+    --fuentePrincipal: 'Oswald', sans-serif;
+}
