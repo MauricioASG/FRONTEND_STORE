@@ -16,9 +16,9 @@
 <body>
     <header class="header">
         <!-- que vaya a index cuando clickean la imagen -->
-        <a href="index.html"></a> 
-            <img class="header__logo"  src="/img/logo.png" alt="Logo de la pagina">
-        </a>
+        <a href="index.html">
+        <img class="header__logo" src="/img/logo.png" alt="Logo de la pagina">
+    </a>
     </header>
 
     <nav class="nav">
@@ -26,8 +26,32 @@
         <a class="nav__enlace" href="nosotros.html">Nosotros</a>
     </nav>
 
+    <!-- solo para las primeras 3 camisas -->
     <main class="contenedor">
-        <h1>Productos disponibles</h1>
+        <h1>Vue.JS</h1>
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/1.jpg" alt="imagen camisa">
+
+            <div class="camisa_contenido">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+                    repellat eaque quod exercitationem animi porro sint voluptatum,Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Voluptas maiores vitae, odit provident distinctio perferendis nihil aperiam, amet
+                    laboriosam doloribus consequatur qui quos, obcaecati esse quas! Atque voluptatem accusamus vitae! 
+                </p>
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option selected disabled>-- Seleccionar talla --</option>
+                        <option class="formulario__option">Chica</option>
+                        <option class="formulario__option">Mediana</option>
+                        <option class="formulario__option">Grande</option>
+                        <option class="formulario__option">Extra grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito">
+       </form>
+            </div><!--camisa_contenido" -->
+        </div> <!--camisa 1" -->
+
     </main>
 
     <footer class="footer">
