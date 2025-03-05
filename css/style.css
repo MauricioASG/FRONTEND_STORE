@@ -216,3 +216,28 @@ h3 {
     text-align: justify;
     padding: 2rem;
 }
+
+/* BLOQUES */
+.bloques {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+@media (min-width: 490px) {
+    .bloques{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.bloque {
+    text-align: center;
+}
+
+.bloque__imagen {
+    width: 50%;
+}
+
+.bloque__titulo {
+    margin: 0;
+}
